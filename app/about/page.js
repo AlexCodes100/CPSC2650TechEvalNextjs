@@ -1,5 +1,10 @@
+import Header from "@/components/Header";
+
 export default function page() {
   return (
-    <h2>About</h2>
-  )
+    <>
+      <Header />
+      <h2>About</h2>
+    </>
+  );
 }
